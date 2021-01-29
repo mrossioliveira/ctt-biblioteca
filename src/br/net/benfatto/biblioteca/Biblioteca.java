@@ -12,6 +12,6 @@ public class Biblioteca {
     List<Usuario> usuarios;
 
     public List<Usuario> getUsuarios() {
-        return Arrays.asList(new Usuario(1, "Murilo"), new Usuario(1, "Fernanda"));
+        return this.usuarios;
     }
 }

@@ -12,6 +12,6 @@ public class Acervo {
     private List<Livro> livros;
 
     public List<Livro> getLivros() {
-        return Arrays.asList(new Livro(1, "A Startup Enxuta"), new Livro(2, "Rápido e Devagar"));
+        return this.livros;
     }
 }
