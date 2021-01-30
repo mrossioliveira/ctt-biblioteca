@@ -1,12 +1,16 @@
 package br.net.benfatto.biblioteca;
 
+import br.net.benfatto.biblioteca.model.Categoria;
+import br.net.benfatto.biblioteca.model.Livro;
 import br.net.benfatto.biblioteca.model.Usuario;
+
+import java.util.List;
 
 /**
  * @author Murilo Oliveira
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         final int VER_USUARIOS = 1;
         final int CRIAR_USUARIOS = 2;
         final int VER_LIVROS = 3;
